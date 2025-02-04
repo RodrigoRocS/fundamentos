@@ -1,0 +1,30 @@
+h1 {
+    color: #1900ff;
+}
+
+#l1 {
+    font-size: 8vh;
+    color: yellow;
+}
+
+#l2 {
+    font-size: 8vh;
+    color: coral;
+}
+
+#l3 {
+    font-size: 8vh;
+    color: darkgreen;
+}
+
+#rodape > a {
+    font-size: 8vh;
+    color: red;
+    text-decoration: none;
+}
+
+.lorem {
+    background-color: aquamarine;
+    color: crimson;
+    
+}
