@@ -1,20 +1,27 @@
 h1 {
     color: #1900ff;
+    text-align: center;
 }
 
-#l1 {
+.ls {
     font-size: 8vh;
-    color: yellow;
+    color: red;
 }
 
-#l2 {
-    font-size: 8vh;
-    color: coral;
+li {
+    list-style: disc;
 }
 
-#l3 {
-    font-size: 8vh;
-    color: darkgreen;
+li:hover {
+    font-size: 5vh;
+}
+
+li > a {
+    text-decoration: none;
+}
+
+.ls:hover {
+    color: black;
 }
 
 #rodape > a {
@@ -30,4 +37,8 @@ h1 {
     border: 5px solid black;
     padding: 10px;
     font-size: 5vh;
+}
+
+.lorem:nth-of-type(odd) {
+    background-color: white;
 }
