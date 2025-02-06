@@ -1,0 +1,44 @@
+h1 {
+    color: #1900ff;
+    text-align: center;
+}
+
+.ls {
+    font-size: 8vh;
+    color: red;
+}
+
+li {
+    list-style: disc;
+}
+
+li:hover {
+    font-size: 5vh;
+}
+
+li > a {
+    text-decoration: none;
+}
+
+.ls:hover {
+    color: black;
+}
+
+#rodape > a {
+    font-size: 8vh;
+    color: red;
+    text-decoration: none;
+}
+
+.lorem {
+    background-color: aquamarine;
+    color: crimson;
+    margin: 30px;
+    border: 5px solid black;
+    padding: 10px;
+    font-size: 5vh;
+}
+
+.lorem:nth-of-type(odd) {
+    background-color: white;
+}
